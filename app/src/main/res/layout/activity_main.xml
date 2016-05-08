@@ -13,7 +13,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clube dos Aplicativos" />
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:text="Ripple Effect"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
 
     <FrameLayout
@@ -26,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:textAppearance="@android:style/TextAppearance.Medium"
             android:clickable="true"
             android:gravity="center"
             android:padding="10dp"
@@ -46,7 +50,8 @@
             android:clickable="true"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Animação/Efeito Ripple personalizado vermelho" />
+            android:text="Animação/Efeito Ripple personalizado vermelho"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
     </FrameLayout>
 
     <FrameLayout
@@ -63,7 +68,8 @@
             android:clickable="true"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Animação/Efeito Ripple personalizado azul" />
+            android:text="Animação/Efeito Ripple personalizado azul"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
     </FrameLayout>
 
     <LinearLayout
@@ -90,6 +96,7 @@
 
             <TextView
                 android:text="Informação"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -111,6 +118,7 @@
 
             <TextView
                 android:text="Galeria"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -132,6 +140,7 @@
 
             <TextView
                 android:text="Pesquisa"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
